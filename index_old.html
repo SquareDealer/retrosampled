@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroSampled - Music Player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Do header -->
+    </header>
+
+    <div class="filters">
+        <div class="filters__search-wrapper">
+            <input class="filters__search-input" type="text" placeholder="Search by keyword">
+            <img class="filters__search-icon" src="img/search.png" alt="search">
+        </div>
+
+        <div class="filters__dropdowns">
+            <button class="filters__dropdown" type="button">
+                <span class="filters__dropdown-text">Genre</span>
+                <img class="filters__dropdown-icon" src="img/dropdown.png" alt="dropdown">
+            </button>
+            <button class="filters__dropdown" type="button">
+                <span class="filters__dropdown-text">Bpm</span>
+                <img class="filters__dropdown-icon" src="img/dropdown.png" alt="dropdown">
+            </button>
+            <button class="filters__dropdown" type="button">
+                <span class="filters__dropdown-text">Key</span>
+                <img class="filters__dropdown-icon" src="img/dropdown.png" alt="dropdown">
+            </button>
+        </div>
+    </div>
+
+    <div class="samples-container">
+        <div class="sample-row">
+            <!-- ЛЕВАЯ ЧАСТЬ: аватар, автор, название, теги -->
+            <div class="sample-row__left">
+                <img
+                    class="sample-row__avatar"
+                    src="/img/avatar.jpg"
+                    alt="@bagamemphis"
+                />
+
+                <div class="sample-row__info">
+                    <div class="sample-row__author">@bagamemphis</div>
+                    <div class="sample-row__title">alesha_popovich_type_sample</div>
+
+                    <div class="sample-row__tags">
+                        <span class="tag">hip-hop</span>
+                        <span class="tag">hip-hop</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- СЕРЕДИНА: play + waveform + инфо о треке -->
+            <div class="sample-row__center">
+                <div class="sample-row__media">
+                    <button class="sample-row__play" type="button">
+                        <img class="sample-row__play-icon" src="img/play_icon.png" alt="play">
+                    </button>
+
+                    <div class="sample-row__waveform">
+                        <img class="sample-row__wave-image" src="img/waveform.png" alt="waveform">
+                    </div>
+                </div>
+
+                <div class="sample-row__metadata">
+                    <div class="sample-row__time">0:08</div>
+                    <div class="sample-row__key">Cm</div>
+                    <div class="sample-row__bpm">170</div>
+                    <div class="sample-row__type">One-shot</div>
+                </div>
+            </div>
+
+            <!-- ПРАВАЯ ЧАСТЬ: цена + лайк -->
+            <div class="sample-row__actions">
+                <div class="sample-row__price">
+                    <span class="sample-row__coin">
+                        <img class="sample-row__coin-icon" src="img/gold_icon.png" alt="gold">
+                    </span>
+                    <span>15</span>
+                </div>
+
+                <button class="sample-row__like" type="button"></button>
+            </div>
+        </div>
+        <div class="sample-row">
+            <!-- ЛЕВАЯ ЧАСТЬ: аватар, автор, название, теги -->
+            <div class="sample-row__left">
+                <img
+                    class="sample-row__avatar"
+                    src="/img/avatar.jpg"
+                    alt="@bagamemphis"
+                />
+
+                <div class="sample-row__info">
+                    <div class="sample-row__author">@bagamemphis</div>
+                    <div class="sample-row__title">alesha_popovich_type_sample</div>
+
+                    <div class="sample-row__tags">
+                        <span class="tag">hip-hop</span>
+                        <span class="tag">hip-hop</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- СЕРЕДИНА: play + waveform + инфо о треке -->
+            <div class="sample-row__center">
+                <div class="sample-row__media">
+                    <button class="sample-row__play" type="button">
+                        <img class="sample-row__play-icon" src="img/play_icon.png" alt="play">
+                    </button>
+
+                    <div class="sample-row__waveform">
+                        <img class="sample-row__wave-image" src="img/waveform.png" alt="waveform">
+                    </div>
+                </div>
+
+                <div class="sample-row__metadata">
+                    <div class="sample-row__time">0:08</div>
+                    <div class="sample-row__key">Cm</div>
+                    <div class="sample-row__bpm">170</div>
+                    <div class="sample-row__type">One-shot</div>
+                </div>
+            </div>
+
+            <!-- ПРАВАЯ ЧАСТЬ: цена + лайк -->
+            <div class="sample-row__actions">
+                <div class="sample-row__price">
+                    <span class="sample-row__coin">
+                        <img class="sample-row__coin-icon" src="img/gold_icon.png" alt="gold">
+                    </span>
+                    <span>15</span>
+                </div>
+
+                <button class="sample-row__like" type="button"></button>
+            </div>
+        </div>
+        <div class="sample-row">
+            <!-- ЛЕВАЯ ЧАСТЬ: аватар, автор, название, теги -->
+            <div class="sample-row__left">
+                <img
+                    class="sample-row__avatar"
+                    src="/img/avatar.jpg"
+                    alt="@bagamemphis"
+                />
+
+                <div class="sample-row__info">
+                    <div class="sample-row__author">@bagamemphis</div>
+                    <div class="sample-row__title">alesha_popovich_type_sample</div>
+
+                    <div class="sample-row__tags">
+                        <span class="tag">hip-hop</span>
+                        <span class="tag">hip-hop</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- СЕРЕДИНА: play + waveform + инфо о треке -->
+            <div class="sample-row__center">
+                <div class="sample-row__media">
+                    <button class="sample-row__play" type="button">
+                        <img class="sample-row__play-icon" src="img/play_icon.png" alt="play">
+                    </button>
+
+                    <div class="sample-row__waveform">
+                        <img class="sample-row__wave-image" src="img/waveform.png" alt="waveform">
+                    </div>
+                </div>
+
+                <div class="sample-row__metadata">
+                    <div class="sample-row__time">0:08</div>
+                    <div class="sample-row__key">Cm</div>
+                    <div class="sample-row__bpm">170</div>
+                    <div class="sample-row__type">One-shot</div>
+                </div>
+            </div>
+
+            <!-- ПРАВАЯ ЧАСТЬ: цена + лайк -->
+            <div class="sample-row__actions">
+                <div class="sample-row__price">
+                    <span class="sample-row__coin">
+                        <img class="sample-row__coin-icon" src="img/gold_icon.png" alt="gold">
+                    </span>
+                    <span>15</span>
+                </div>
+
+                <button class="sample-row__like" type="button"></button>
+            </div>
+        </div>
+        <div class="sample-row">
+            <!-- ЛЕВАЯ ЧАСТЬ: аватар, автор, название, теги -->
+            <div class="sample-row__left">
+                <img
+                    class="sample-row__avatar"
+                    src="/img/avatar.jpg"
+                    alt="@bagamemphis"
+                />
+
+                <div class="sample-row__info">
+                    <div class="sample-row__author">@bagamemphis</div>
+                    <div class="sample-row__title">alesha_popovich_type_sample</div>
+
+                    <div class="sample-row__tags">
+                        <span class="tag">hip-hop</span>
+                        <span class="tag">hip-hop</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- СЕРЕДИНА: play + waveform + инфо о треке -->
+            <div class="sample-row__center">
+                <div class="sample-row__media">
+                    <button class="sample-row__play" type="button">
+                        <img class="sample-row__play-icon" src="img/play_icon.png" alt="play">
+                    </button>
+
+                    <div class="sample-row__waveform">
+                        <img class="sample-row__wave-image" src="img/waveform.png" alt="waveform">
+                    </div>
+                </div>
+
+                <div class="sample-row__metadata">
+                    <div class="sample-row__time">0:08</div>
+                    <div class="sample-row__key">Cm</div>
+                    <div class="sample-row__bpm">170</div>
+                    <div class="sample-row__type">One-shot</div>
+                </div>
+            </div>
+
+            <!-- ПРАВАЯ ЧАСТЬ: цена + лайк -->
+            <div class="sample-row__actions">
+                <div class="sample-row__price">
+                    <span class="sample-row__coin">
+                        <img class="sample-row__coin-icon" src="img/gold_icon.png" alt="gold">
+                    </span>
+                    <span>15</span>
+                </div>
+
+                <button class="sample-row__like" type="button"></button>
+            </div>
+        </div>
+        <div class="sample-row">
+            <!-- ЛЕВАЯ ЧАСТЬ: аватар, автор, название, теги -->
+            <div class="sample-row__left">
+                <img
+                    class="sample-row__avatar"
+                    src="/img/avatar.jpg"
+                    alt="@bagamemphis"
+                />
+
+                <div class="sample-row__info">
+                    <div class="sample-row__author">@bagamemphis</div>
+                    <div class="sample-row__title">alesha_popovich_type_sample</div>
+
+                    <div class="sample-row__tags">
+                        <span class="tag">hip-hop</span>
+                        <span class="tag">hip-hop</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- СЕРЕДИНА: play + waveform + инфо о треке -->
+            <div class="sample-row__center">
+                <div class="sample-row__media">
+                    <button class="sample-row__play" type="button">
+                        <img class="sample-row__play-icon" src="img/play_icon.png" alt="play">
+                    </button>
+
+                    <div class="sample-row__waveform">
+                        <img class="sample-row__wave-image" src="img/waveform.png" alt="waveform">
+                    </div>
+                </div>
+
+                <div class="sample-row__metadata">
+                    <div class="sample-row__time">0:08</div>
+                    <div class="sample-row__key">Cm</div>
+                    <div class="sample-row__bpm">170</div>
+                    <div class="sample-row__type">One-shot</div>
+                </div>
+            </div>
+
+            <!-- ПРАВАЯ ЧАСТЬ: цена + лайк -->
+            <div class="sample-row__actions">
+                <div class="sample-row__price">
+                    <span class="sample-row__coin">
+                        <img class="sample-row__coin-icon" src="img/gold_icon.png" alt="gold">
+                    </span>
+                    <span>15</span>
+                </div>
+
+                <button class="sample-row__like" type="button"></button>
+            </div>
+        </div>
+        <div class="sample-row">
+            <!-- ЛЕВАЯ ЧАСТЬ: аватар, автор, название, теги -->
+            <div class="sample-row__left">
+                <img
+                    class="sample-row__avatar"
+                    src="/img/avatar.jpg"
+                    alt="@bagamemphis"
+                />
+
+                <div class="sample-row__info">
+                    <div class="sample-row__author">@bagamemphis</div>
+                    <div class="sample-row__title">alesha_popovich_type_sample</div>
+
+                    <div class="sample-row__tags">
+                        <span class="tag">hip-hop</span>
+                        <span class="tag">hip-hop</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- СЕРЕДИНА: play + waveform + инфо о треке -->
+            <div class="sample-row__center">
+                <div class="sample-row__media">
+                    <button class="sample-row__play" type="button">
+                        <img class="sample-row__play-icon" src="img/play_icon.png" alt="play">
+                    </button>
+
+                    <div class="sample-row__waveform">
+                        <img class="sample-row__wave-image" src="img/waveform.png" alt="waveform">
+                    </div>
+                </div>
+
+                <div class="sample-row__metadata">
+                    <div class="sample-row__time">0:08</div>
+                    <div class="sample-row__key">Cm</div>
+                    <div class="sample-row__bpm">170</div>
+                    <div class="sample-row__type">One-shot</div>
+                </div>
+            </div>
+
+            <!-- ПРАВАЯ ЧАСТЬ: цена + лайк -->
+            <div class="sample-row__actions">
+                <div class="sample-row__price">
+                    <span class="sample-row__coin">
+                        <img class="sample-row__coin-icon" src="img/gold_icon.png" alt="gold">
+                    </span>
+                    <span>15</span>
+                </div>
+
+                <button class="sample-row__like" type="button"></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
