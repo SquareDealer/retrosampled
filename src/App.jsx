@@ -17,7 +17,7 @@ const samples = [
     bpm: "140",
     type: "One-shot",
     price: 15,
-    audioUrl: "/public/audio/BRUNO THEME CHOP.wav"
+    audioUrl: "/audio/BRUNO THEME CHOP.wav"
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const samples = [
     bpm: "90",
     type: "One-shot",
     price: 15,
-    audioUrl: "/public/audio/BUCKETHEAD ELECTRIC TEARS CHOP.wav"
+    audioUrl: "/audio/BUCKETHEAD ELECTRIC TEARS CHOP.wav"
   },
   {
     id: 3,
@@ -43,7 +43,7 @@ const samples = [
     bpm: "128",
     type: "One-shot",
     price: 15,
-    audioUrl: "/public/audio/BULLET CHOP.wav"
+    audioUrl: "/audio/BULLET CHOP.wav"
   },
   {
     id: 4,
@@ -56,7 +56,7 @@ const samples = [
     bpm: "150",
     type: "One-shot",
     price: 15,
-    audioUrl: "/public/audio/CALDERA CHOP.wav"
+    audioUrl: "/audio/CALDERA CHOP.wav"
   },
   {
     id: 5,
@@ -69,7 +69,7 @@ const samples = [
     bpm: "85",
     type: "One-shot",
     price: 15,
-    audioUrl: "/public/audio/CHECK OUT TIME LOOP.wav"
+    audioUrl: "/audio/CHECK OUT TIME LOOP.wav"
   },
   {
     id: 6,
@@ -82,7 +82,7 @@ const samples = [
     bpm: "160",
     type: "One-shot",
     price: 15,
-    audioUrl: "/public/audio/BRUNO THEME CHOP.wav"
+    audioUrl: "/audio/BRUNO THEME CHOP.wav"
   },
   {
     id: 7,
@@ -95,7 +95,7 @@ const samples = [
     bpm: "110",
     type: "One-shot",
     price: 15,
-    audioUrl: "/public/audio/BUCKETHEAD ELECTRIC TEARS CHOP.wav"
+    audioUrl: "/audio/BUCKETHEAD ELECTRIC TEARS CHOP.wav"
   },
   {
     id: 8,
@@ -108,7 +108,7 @@ const samples = [
     bpm: "135",
     type: "One-shot",
     price: 15,
-    audioUrl: "/public/audio/BULLET CHOP.wav"
+    audioUrl: "/audio/BULLET CHOP.wav"
   },
   {
     id: 9,
@@ -121,7 +121,7 @@ const samples = [
     bpm: "95",
     type: "One-shot",
     price: 15,
-    audioUrl: "/public/audio/CALDERA CHOP.wav"
+    audioUrl: "/audio/CALDERA CHOP.wav"
   },
   {
     id: 10,
@@ -134,7 +134,7 @@ const samples = [
     bpm: "145",
     type: "One-shot",
     price: 15,
-    audioUrl: "/public/audio/CHECK OUT TIME LOOP.wav"
+    audioUrl: "/audio/CHECK OUT TIME LOOP.wav"
   }
 ];
 
